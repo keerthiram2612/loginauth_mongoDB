@@ -10,14 +10,35 @@
    height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/nature.jpeg");
-    background-position: center top;
+    filter: blur(4px) ;
+    z-index: 2;
+    background-image: url("../assets/nature.jpeg") ;
 }
+
 .components{
     width: 500px;
     height: 250px;
     justify-content: center;
+    align-items: center;
+    transform: translateY(-170%);
+    margin-left: 460px;
+    color: white;
+    border:1px solid black ;
+    text-align: center;
     
+    background-color: rgba(0, 0, 0, 0.2);
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+button{
+    width: 100px;
+    height: 60px;
+    margin-top: 6px;
+    border-radius: 5px;
 }
 
 
